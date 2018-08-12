@@ -1,0 +1,89 @@
+
+.header-top * {
+	outline: 2px solid black;
+}
+
+.header-top {
+	margin-bottom: 50px;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.main-header {
+	padding-top: 35px;
+	background-color: #eeeeee; 
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.main-navigation {
+	min-width: 960px;
+	margin-right: 85px;
+}
+
+.userblock {
+	margin-top: 30px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f7898b;
+}
+
+.main-navigation, .userblock {
+	float: left;
+}
+
+.logo-nerds, .list-navigation {
+	float: left;
+}
+
+.logo-nerds {
+	margin-right: 200px;
+}
+
+.list-navigation {
+	padding: 0;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 0;
+	color: #000000;
+}
+
+.list-navigation .list-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 35px;
+	list-style-type: none;
+	font-size: 16px;
+	border-bottom: 2px solid #f7898b;
+}
+
+.list-navigation li:last-child {
+	margin-right: 0;
+}
+
+.list-item a, .userblock a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.list-item a:hover, .userblock a:hover {
+	color: #fb565a;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.slide-title {
+	margin-bottom: 15px;
+	font-size: 55px;
+}
