@@ -1,2 +1,2 @@
 # SmerchProsto.github.io
-sait
+site
