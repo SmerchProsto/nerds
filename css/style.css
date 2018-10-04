@@ -94,6 +94,7 @@ b {
 
 .navigation-item-link {
 	display: block;
+	min-width: 40px;
 	font-family: "Roboto", Arial, sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
