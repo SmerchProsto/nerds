@@ -13,11 +13,12 @@ body {
 	background-color: #ffffff;
 }
 
-h1 {
-	float: left;
-	margin: 0;
-	margin-right: 200px;
-	padding: 0;
+.nerds-index-title,
+.index-logo[href="index.html"] {
+		float: left;
+		margin: 0;
+		margin-right: 200px;
+		padding: 0;
 }
 
 h1,
@@ -59,13 +60,13 @@ b {
 	display: table;
 }
 
-/* .index-logo:hover {
+.index-logo[href="index.html"]:hover {
 	opacity: 0.8;
 }
 
-.index-logo:active {
+.index-logo[href="index.html"]:active {
 	opacity: 0.3;
-} */ /* для магазина */
+} для магазина
 																											/*   MAIN-NAVIGATION   */
 
 .index-logo {
@@ -698,9 +699,9 @@ main {
 																											/*   POPUP   */
 .popup {
 	position: fixed;
-	top: 10px;
+	top: 50%;
 	right: 0;
-	left: 15%;
+	left: 50%;
 	z-index: 9998;
 	display: none;
 	box-sizing: border-box;
@@ -709,6 +710,7 @@ main {
 	padding: 36px 100px 85px;
 	background: #ffffff;
 	box-shadow: 0 40px 40px 0 rgba(0,0,0,0.75);
+	transform: translate(-50%, -50%);
 }
 
 .show-popup {
