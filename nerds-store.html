@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>"Нердс" каталог</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="index-logo" href="index.html"><img width="160" height="65" src="img/nerds-logo.png" alt="Рисунок Нердс"></a>
+			<ul class="navigation-items">
+				<li class="navigation-item"><a class="navigation-item-link" href="index.html">студия</a></li>
+				<li class="navigation-item"><a class="navigation-item-link" href="#">клиенты</a></li>
+				<li class="navigation-item"><a class="navigation-item-link link-active">магазин</a></li>
+				<li class="navigation-item"><a class="navigation-item-link" href="#">контакты</a></li>
+			</ul>
+			<ul class="user-navigation-items">
+				<li class="user-navigation-item"><a class="user-navigation-item-link" href="#">корзина</a></li>
+			</ul>
+		</nav>
+		<h1 class="nerds-store-title">Магазин готовых шаблонов</h1>
+	</header>
+	<main>
+		<aside class="store-filter">
+			<form class="store-filter-form" action="#" method="get">
+				<h2 class="visually-hidden">Услуги</h2>
+				<ul class="store-filter-items">
+					<li class="store-filter-item">
+						<h3 class="filter-item-title">стоимость:</h3>
+						<div class="filter-item-slide">
+							<div class="range"></div>
+							<div class="range"></div>
+							<div class="scale">
+								<span class="scale-filled"></span>
+							</div>
+						</div>
+						<ul class="filter-prices-items">
+							<li class="filter-prices-item">
+								<label for="starting-price">От</label>
+								<input class="starting-price" type="text" name="starting-price" id="starting-price" value="0">
+							</li>
+							<li class="filter-prices-item">
+								<label for="final-price">До</label>
+								<input class="final-price" type="text" name="final-price" id="final-price" value="15000">
+							</li>
+						</ul>
+					</li>
+					<li class="store-filter-item">
+						<h3 class="filter-item-title">сетка:</h3>
+						<ul class="service-items">
+							<li class="service-item">
+								<input type="radio" name="makets" value="adaptive" id="adaptive-maket">
+								<label for="adaptive-maket">Адаптивная</label>
+							</li>
+							<li class="service-item">
+								<input type="radio" name="makets" value="fixed" id="fixed-maket">
+								<label for="fixed-maket">Фиксированная</label>
+							</li>
+							<li class="service-item">
+								<input type="radio" name="makets" value="rubber" id="rubber-maket">
+								<label for="rubber-maket">Резиновая</label>
+							</li>
+						</ul>
+					</li>
+					<li class="store-filter-item">
+						<h3 class="filter-item-title">особенности:</h3>
+						<ul class="service-items">
+							<li class="service-item">
+								<input type="checkbox" name="features" value="slider" id="slider-feature">
+								<label for="slider-feature">Слайдер</label>
+							</li>
+							<li class="service-item">
+								<input type="checkbox" name="features" value="block-benefits" id="block-benefits">
+								<label for="block-benefits">Блок преймуществ</label>
+							</li>
+							<li class="service-item">
+								<input type="checkbox" name="features" value="news" id="news-feature">
+								<label for="news-feature">Новости</label>
+							</li>
+							<li class="service-item">
+								<input type="checkbox" name="features" value="gallery" id="gallery-feature">
+								<label for="gallery-feature">Галерея</label>
+							</li>
+							<li class="service-item">
+								<input type="checkbox" name="features" value="basket" id="basket-feature">
+								<label for="basket-feature">Корзина</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<input class="filter-form-button" type="button" value="Показать">
+			</form>
+		</aside>
+		<section class="warens">
+			<h2 class="visually-hidden">Список сайтов</h2>
+			<h3 class="sorting-title">сортировать:</h3>
+			<ul class="sorting-items">
+				<li class="sorting-item">по цене</li>
+				<li class="sorting-item">по типу</li>
+				<li class="sorting-item">по названию</li>
+			</ul>
+			<ul class="waren-items">
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;седона&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">sedona</b>
+						<span class="waren-description-paragraph">Информационный сайт для туристов</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;пинк&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">pink app</b>
+						<span class="waren-description-paragraph">Продуктовый лендинг приложения для iOS и Android</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;барбершоп&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">barbershop</b>
+						<span class="waren-description-paragraph">Сайт салона красоты. Для мужчин, да.</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;мишка&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">mishka</b>
+						<span class="waren-description-paragraph">Интернет-магазин вязаных игрушек</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;плюс&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">a plus</b>
+						<span class="waren-description-paragraph">Лендинг курсов повышения квалификации</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+				<li class="waren-item">
+					<img src="#" alt="сайт &quot;кваст&quot;" class="waren-item-content">
+					<p class="waren-item-description">
+						<b class="waren-description-title">кваст</b>
+						<span class="waren-description-paragraph">Промо-сайт производителя квафтого кваса</span>
+						<a class="waren-description-button" href="#">9 900 руб.</a>
+					</p>
+				</li>
+			</ul>
+			<ul class="breadcrumbs">
+				<li class="breadcrumb crumb-active">1</li>
+				<li class="breadcrumb">2</li>
+				<li class="breadcrumb">3</li>
+				<li class="breadcrumb">следующая</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<section class="location">
+			<div class="container-content">
+				<h2 class="visually-hidden">Где мы находимся</h2>
+				<section class="contacts">
+					<h3 class="contact-title"><span><span class="visually-hidden">Где находится </span>Nerds Design Studio</span></h3>
+					<p><span>191186, Санкт-Петербург,<br>
+					ул. Б. Конюшенная, д. 19/8<br><br>
+					тел. +7 (812) 275-75-75</span></p>
+					<a class="contact-button" href="#"><span>напишите нам</span></a>
+				</section>
+			</div>
+		</section>
+		<div class="container-content">
+			<section class="social-share">
+				<h2 class="visually-hidden">Поделитесь нами в соц. сетях.</h2>
+				<a class="social-button social-vk" href="#" title="Вконтакте">
+					<span class="visually-hidden">Вконтакте</span></a>
+				<a class="social-button social-fb" href="#" title="Фейсбук">
+					<span class="visually-hidden">Фейсбук</span></a>
+				<a class="social-button social-inst" href="#" title="Инстаграмм">
+					<span class="visually-hidden">Инстаграмм</span></a>
+			</section>
+			<p class="footer-promo">
+				<b class="promo-title">Давайте дружить, это выгодно!</b><br>
+				<span>Скидка 10% для друзей из социальных сетей.</span>
+			</p>
+		</div>
+	</footer>
+	<form class="popup" action="#" method="post">
+		<div class="popup-inner">
+			<h2 class="popup-title">Напишите нам</h2>
+			<ul class="user-data-items">
+				<li class="user-data-item login-field">
+					<label class="signature" for="login"><b>Ваше имя:</b></label><br>
+					<input type="text" name="login" id="login" placeholder="Представьтесь, пожалуйста">
+				</li>
+				<li class="user-data-item email-field">
+					<label class="signature" for="email"><b>Ваш e-mail:</b></label><br>
+					<input type="email" name="email" id="email" placeholder="Для отправки ответа">
+				</li>
+			</ul>
+			<section class="text-message-field">
+				<label class="signature" for="text-message">Текст письма:</label><br>
+				<textarea name="text-message" id="text-message" cols="60" rows="5" placeholder="В свободной форме"></textarea>
+			</section>
+			<input class="form-button" type="submit" value="Отправить">
+			<div class="popup-button">
+				<button class="popup-button-inner" type="button"><span class="visually-hidden">закрыть</span></button>
+			</div>
+		</div>
+	</form>
+	<script src="js/script.js"></script>
+</body>
+</html>
