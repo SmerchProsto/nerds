@@ -38,7 +38,11 @@ b {
 	width: 0;
 	height: 0;
 }
-																											/*   MAIN-HEADER   */										
+																											/*   MAIN-HEADER   */
+
+.nerds-store .main-header {
+	padding-bottom: 69px;
+}
 
 .main-header {
 	margin-bottom: 80px;
@@ -54,6 +58,10 @@ b {
 	padding-left: 20px;
 }
 
+.nerds-store .main-navigation {
+	margin-bottom: 76px;
+}
+
 .main-navigation::after {
 	content: "";
 	clear: both;
@@ -66,8 +74,7 @@ b {
 
 .index-logo[href="index.html"]:active {
 	opacity: 0.3;
-} для магазина
-																											/*   MAIN-NAVIGATION   */
+}
 
 .index-logo {
 	display: block;
@@ -166,6 +173,13 @@ b {
 .user-navigation-item-link:active {
 	opacity: 0.3;
 }
+
+.nerds-store-title {
+	margin-top: 0;
+	font-size: 55px;
+	line-height: 55px;
+	text-align: center;
+}
 																											/*   HEADER-SLIDES  */
 
 .header-slides {
@@ -215,6 +229,7 @@ label[for^="slider-control"]:nth-child(3) {
 .header-slide-items {
 	margin: 0;
 	padding: 77px 0 82px;
+	list-style: none;
 }
 
 .slide-item {
@@ -305,6 +320,112 @@ main {
 	padding-left: 20px;
 	margin: 0 auto;
 }
+
+main::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+																											/*   STORE-FILTER   */
+
+.store-filter {
+	float: left;
+	width: 260px;
+	margin-right: 200px; /* для оформления */
+}
+
+.filter-item-title {
+	text-transform: uppercase;
+}
+
+.store-filter-items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.store-filter-item {
+	margin: 0;
+	padding: 0
+}
+
+.filter-item-slide {
+	width: 221px;
+	height: 2px;
+	margin-bottom: 14px;
+	padding: 39px 21px 39px 18px;
+	background-color: #eeeeee;
+	border-radius: 1px;
+}
+
+.filter-range {
+	position: absolute;
+	z-index: 100;
+	width: 4px;
+	height: 5px;
+	background-color: #ababab;
+	box-shadow: 0 2px #cccdcd;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	transform: translate(0, -50%);
+}
+
+.filter-range:nth-of-type(2) {
+	left: 60%;
+}
+
+.filter-scale {
+	position: relative;
+	width: 219px;
+	height: 2px;
+	background-color: #d7dcde;
+}
+
+.filter-scale-filled {
+	position: absolute;
+	display: inline-block;
+	width: 151px;
+	height: 2px;
+	background-color: #00ca74;
+}
+																											/*   FILTER-PRICE-ITEMS   */
+
+.filter-price-items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.filter-price-items::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.filter-price-item:nth-child(1) {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.filter-price-item:nth-child(2) {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.starting-price,
+.final-price {
+	width: 48px;
+	height: 18px;
+	padding: 10px 16px;
+	text-align: center;
+	background-color: #eeeeee;
+	border: none;
+	border-radius: 2px;
+}
+																											/*   FEATURES   */
 
 .features {
 	margin-bottom: 40px;
@@ -505,7 +626,7 @@ main {
 .statistic-number {
 	margin-bottom: 9px;
 	font-size: 45px;
-	line-height: auto;
+	line-height: 45px;
 	color: #000000;
 }
 																											/*   PARTNERS   */
