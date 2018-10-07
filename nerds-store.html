@@ -52,16 +52,16 @@
 						<h3 class="filter-item-title">сетка:</h3>
 						<ul class="service-items">
 							<li class="service-item">
-								<input type="radio" name="makets" value="adaptive" id="adaptive-maket">
-								<label for="adaptive-maket">Адаптивная</label>
+								<input type="radio" name="makets" value="adaptive" id="adaptive-maket" checked>
+								<label for="adaptive-maket">Адаптивная<span class="radio-point"></span></label>
 							</li>
 							<li class="service-item">
 								<input type="radio" name="makets" value="fixed" id="fixed-maket">
-								<label for="fixed-maket">Фиксированная</label>
+								<label for="fixed-maket">Фиксированная<span class="radio-point"></span></label>
 							</li>
 							<li class="service-item">
 								<input type="radio" name="makets" value="rubber" id="rubber-maket">
-								<label for="rubber-maket">Резиновая</label>
+								<label for="rubber-maket">Резиновая<span class="radio-point"></span></label>
 							</li>
 						</ul>
 					</li>
@@ -69,24 +69,29 @@
 						<h3 class="filter-item-title">особенности:</h3>
 						<ul class="service-items">
 							<li class="service-item">
-								<input type="checkbox" name="features" value="slider" id="slider-feature">
-								<label for="slider-feature">Слайдер</label>
+								<input type="checkbox" name="features" value="slider" id="slider-feature" checked>
+								<label for="slider-feature">Слайдер
+									<span class="checkbox-mark"><img width="27" height="23" src="img/checkbox-on.png" alt=""></span></label>
 							</li>
 							<li class="service-item">
-								<input type="checkbox" name="features" value="block-benefits" id="block-benefits">
-								<label for="block-benefits">Блок преймуществ</label>
+								<input type="checkbox" name="features" value="block-benefits" id="block-benefits-feature">
+								<label for="block-benefits-feature">Блок преймуществ
+									<span class="checkbox-mark"><img width="27" height="23" src="img/checkbox-on.png" alt=""></span></label>
 							</li>
 							<li class="service-item">
-								<input type="checkbox" name="features" value="news" id="news-feature">
-								<label for="news-feature">Новости</label>
+								<input type="checkbox" name="features" value="news" id="news-feature" checked>
+								<label for="news-feature">Новости
+									<span class="checkbox-mark"><img width="27" height="23" src="img/checkbox-on.png" alt=""></span></label>
 							</li>
 							<li class="service-item">
 								<input type="checkbox" name="features" value="gallery" id="gallery-feature">
-								<label for="gallery-feature">Галерея</label>
+								<label for="gallery-feature">Галерея
+									<span class="checkbox-mark"><img width="27" height="23" src="img/checkbox-on.png" alt=""></span></label>
 							</li>
 							<li class="service-item">
 								<input type="checkbox" name="features" value="basket" id="basket-feature">
-								<label for="basket-feature">Корзина</label>
+								<label for="basket-feature">Корзина
+									<span class="checkbox-mark"><img width="27" height="23" src="img/checkbox-on.png" alt=""></span></label>
 							</li>
 						</ul>
 					</li>
@@ -96,12 +101,14 @@
 		</aside>
 		<section class="warens">
 			<h2 class="visually-hidden">Список сайтов</h2>
-			<h3 class="sorting-title">сортировать:</h3>
-			<ul class="sorting-items">
-				<li class="sorting-item">по цене</li>
-				<li class="sorting-item">по типу</li>
-				<li class="sorting-item">по названию</li>
-			</ul>
+			<section class="sorting-warens">
+				<h3 class="sorting-title">сортировать:</h3>
+				<ul class="sorting-items">
+					<li class="sorting-item">по цене</li>
+					<li class="sorting-item">по типу</li>
+					<li class="sorting-item">по названию</li>
+				</ul>
+			</section>
 			<ul class="waren-items">
 				<li class="waren-item">
 					<img src="#" alt="сайт &quot;седона&quot;" class="waren-item-content">
