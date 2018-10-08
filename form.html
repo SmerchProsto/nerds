@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Напишите нам</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="nerds-form">
+	<form class="popup" action="#" method="post">
+		<div class="popup-inner">
+			<h2 class="popup-title">Напишите нам</h2>
+			<ul class="user-data-items">
+				<li class="user-data-item login-field">
+					<label class="signature" for="login"><b>Ваше имя:</b></label><br>
+					<input type="text" name="login" id="login" placeholder="Представьтесь, пожалуйста">
+				</li>
+				<li class="user-data-item email-field">
+					<label class="signature" for="email"><b>Ваш e-mail:</b></label><br>
+					<input type="email" name="email" id="email" placeholder="Для отправки ответа">
+				</li>
+			</ul>
+			<section class="text-message-field">
+				<label class="signature" for="text-message">Текст письма:</label><br>
+				<textarea name="text-message" id="text-message" cols="60" rows="5" placeholder="В свободной форме"></textarea>
+			</section>
+			<input class="form-button" type="submit" value="Отправить">
+			<div class="popup-button">
+				<button class="popup-button-inner" type="button"><span class="visually-hidden">закрыть</span></button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
