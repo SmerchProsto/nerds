@@ -629,8 +629,8 @@ input[name="features"]:disabled + label[for$="feature"] {
 	height: 0;
 	padding: 0;
 	border-top: 10px solid #010101;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
+	border-left: 5px solid #ffffff;
+	border-right: 5px solid #ffffff;
 	border-bottom: 0;
 }
 
@@ -642,8 +642,8 @@ input[name="features"]:disabled + label[for$="feature"] {
 	height: 0;
 	padding: 0;
 	border-top: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
+	border-left: 5px solid #ffffff;
+	border-right: 5px solid #ffffff;
 	border-bottom: 10px solid #010101;
 }
 
