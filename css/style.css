@@ -1268,7 +1268,6 @@ input[name="features"]:disabled + label[for$="feature"] {
 
 .popup {
 	position: fixed;
-	top: 50%;
 	right: 0;
 	left: 50%;
 	z-index: 9998;
