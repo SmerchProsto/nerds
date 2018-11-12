@@ -1252,6 +1252,18 @@ input[name="features"]:disabled + label[for$="feature"] {
 	display: inline-block;
 	margin-bottom: 7px;
 }
+
+@keyframes appear-popup {
+	from {
+		top: -25%;
+	}
+	50%, 95% {
+		transform: translateY(80%);
+	}
+	95%, 100% {
+		transform: translateY(-5%);
+	}
+}
 																											/*   POPUP   */
 .popup {
 	position: fixed;
@@ -1266,6 +1278,9 @@ input[name="features"]:disabled + label[for$="feature"] {
 	padding: 36px 100px 85px;
 	background: #ffffff;
 	box-shadow: 0 40px 40px 0 rgba(0,0,0,0.75);
+	animation-name: appear-popup;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
 	transform: translate(-50%, -50%);
 }
 
