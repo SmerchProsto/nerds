@@ -1263,7 +1263,7 @@ input[name="features"]:disabled + label[for$="feature"] {
 	}
 	95%, 100% {
 		transform: translateY(-5%); */
-	98% {
+	95% {
 		top: 55%;
 	}
 	100% {
