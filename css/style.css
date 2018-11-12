@@ -1283,6 +1283,9 @@ input[name="features"]:disabled + label[for$="feature"] {
 	animation-timing-function: ease-out;
 	animation-fill-mode: forwards;
 	transform: translate(-50%, -50%);
+	animation-name: appear-popup;
+  	animation-duration: 0.8s;
+  	animation-timing-function: ease-in-out;
 }
 
 .nerds-form .popup {
