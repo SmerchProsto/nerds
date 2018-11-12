@@ -1257,18 +1257,13 @@ input[name="features"]:disabled + label[for$="feature"] {
 @keyframes appear-popup {
 	from {
 		top: -25%;
-	}
-/* 	50%, 95% {
-		transform: translateY(80%);
-	}
-	95%, 100% {
-		transform: translateY(-5%); */
-	95% {
-		top: 55%;
-	}
-	100% {
-		top: 50%;
-	}
+	  }
+	60% {
+		top: 70%; 
+	  }
+	to {
+	    	top: 50%;
+	  }
 }
 
 .popup {
