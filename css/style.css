@@ -1282,6 +1282,7 @@ input[name="features"]:disabled + label[for$="feature"] {
 	animation-name: appear-popup;
 	animation-duration: 0.5s;
 	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
 	transform: translate(-50%, -50%);
 }
 
